@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="com.techlabs.model.Print"/>
+<fullyQualifiedTypeName name="com.techlabs.model.student"/>
+<fullyQualifiedTypeName name="com.techlabs.model.Rectangle"/>
+<fullyQualifiedTypeName name="com.techlabs.first.AccontType"/>
+<fullyQualifiedTypeName name="com.techlabs.inputs.AccountOne"/>
+<fullyQualifiedTypeName name="com.techlabs.input.AccountType"/>
+<fullyQualifiedTypeName name="com.techlabs.input.Account"/>
+<fullyQualifiedTypeName name="com.techlabs.first.Student1"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.techlabs.input.Status"/>
+<fullyQualifiedTypeName name="com.techlabs.model.StaticDemo"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="com.techlabs.model.BoxWeight"/>
+</qualifiedTypeNameHistroy>

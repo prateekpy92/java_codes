@@ -1,0 +1,27 @@
+package com.monocept.typecasting;
+
+public class ImplicitExplit {
+
+	public static void main(String[] args) {
+		int ageInYears = 30;
+        double daysInAYear = 365.25; 
+
+        double totalDays = ageInYears * daysInAYear;
+
+        System.out.println("Total days lived approximately: " + totalDays);
+        
+         ageInYears = 40;
+         daysInAYear = 365.25;
+
+        double totalDaysImplicit = ageInYears * daysInAYear;
+
+        System.out.println("Total days lived (implicit conversion): " + totalDaysImplicit);
+
+        
+        int totalDaysExplicit = (int) (ageInYears * daysInAYear); 
+
+        System.out.println("Total days lived (explicit conversion): " + totalDaysExplicit);
+    }
+	}
+
+

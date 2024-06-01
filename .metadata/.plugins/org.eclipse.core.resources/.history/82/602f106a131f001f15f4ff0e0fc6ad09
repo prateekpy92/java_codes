@@ -1,0 +1,27 @@
+package com.techlabs.statictest;
+
+import com.techlabs.model.StaticDemo;
+
+public class Test {
+
+	public static void main(String[] args) {
+		StaticDemo demo1 = new StaticDemo();
+		StaticDemo demo2 = new StaticDemo();
+		StaticDemo demo3 = new StaticDemo();
+
+		demo1.display();
+		demo2.display();
+		demo3.display();
+
+		demo1.increment();
+		demo2.increment();
+		demo3.increment();
+
+		demo1.display();
+		demo2.display();
+		demo3.display();
+
+
+	}
+
+}

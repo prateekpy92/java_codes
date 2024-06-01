@@ -1,0 +1,9 @@
+package com.techlabs.model;
+
+public class BoxWeight {
+	
+		 public double weight;
+		
+
+		}
+

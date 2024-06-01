@@ -1,0 +1,10 @@
+package com.teclabs.assi;
+
+public class Matrices {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,59 @@
+package com.teclabs.assi;
+
+import java.util.Scanner;
+
+public class Matrices {
+
+	 
+	
+	 
+	    public static void main(String[] args) {
+	        int i, j, k, rowFirst, rowSecond, colFirst, colSecond;
+	        int first[][] = new int[10][10];
+	        int second[][] = new int[10][10];
+	        int product[][] = new int[10][10];
+	 
+	        Scanner scanner = new Scanner(System.in);
+	 
+	        System.out.println("Enter Rows and Cols of First Matrix");
+	        rowFirst = scanner.nextInt();
+	        colFirst = scanner.nextInt();
+	 
+	        System.out.println("Enter Elements of First Matrix");
+	 
+	        
+	        for (i = 0; i < rowFirst; i++) {
+	            for (j = 0; j < colFirst; j++) {
+	                first[i][j] = scanner.nextInt();
+	            }
+	        }
+	 
+	        System.out.println("Enter Rows and Cols of Second Matrix");
+	        rowSecond = scanner.nextInt();
+	        colSecond = scanner.nextInt();
+	 
+	        System.out.println("Enter Elements of Second Matrix");
+	 
+	        for (i = 0; i < rowSecond; i++) {
+	            for (j = 0; j < colSecond; j++) {
+	                second[i][j] = scanner.nextInt();
+	            }
+	        }
+	 
+	        for (i = 0; i < rowFirst; i++) {
+	            for (j = 0; j < colFirst; j++) {
+	                for (k = 0; k < colSecond; k++) {
+	                    product[i][j] += first[i][k] * second[k][j];
+	                }
+	            }
+	        }
+	 
+	        System.out.println("Product Matrix");
+	        for (i = 0; i < rowFirst; i++) {
+	            for (j = 0; j < colSecond; j++) {
+	                System.out.print(product[i][j] + " ");
+	            }
+	            System.out.print("\n");
+	        }
+	    }
+	}

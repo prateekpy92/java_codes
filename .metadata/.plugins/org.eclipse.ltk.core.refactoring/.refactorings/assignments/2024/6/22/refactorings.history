@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.teclabs.assi.Bank&apos; to &apos;Account&apos;&#x0D;&#x0A;- Original project: &apos;assignments&apos;&#x0D;&#x0A;- Original element: &apos;com.teclabs.assi.Bank&apos;&#x0D;&#x0A;- Renamed element: &apos;com.teclabs.assi.Account&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Bank&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.teclabs.assi{Bank.java[Bank" matchStrategy="1" name="Account" qualified="false" references="true" similarDeclarations="false" stamp="1717221694405" textual="false" version="1.0"/>
+</session>

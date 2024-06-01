@@ -1,0 +1,14 @@
+package com.techlabs.oop;
+
+public class studenttest {
+
+	public static void main(String[] args) {
+		Student student1=new Student();
+		student1.display();
+		student1.intialize();
+		
+		student1.display();
+
+	}
+
+}

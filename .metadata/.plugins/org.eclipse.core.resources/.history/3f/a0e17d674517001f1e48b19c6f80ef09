@@ -1,0 +1,22 @@
+package com.techlabs.oop;
+
+public class Student {
+
+	private int rollnumber;
+	private String name;
+	private int age;
+	void intialize(int rollnumber,String name, int age ) {
+		
+		rollnumber=rollnumber;
+		name="name";
+		age=age;
+	}
+	
+	void display() 
+	{
+		System.out.println("rollnumber"+rollnumber);
+	
+		System.out.println("name"+name);
+		System.out.println("age"+age);
+	}
+}
