@@ -9,6 +9,7 @@ public class Validator {
 	    	
 	 if (input == null || input==""|| input.length()<minimum)
 	 return false ;
+	return false;
 	 }
 	    public static boolean validateUsername(String username) {
 	    
@@ -24,7 +25,8 @@ public class Validator {
 	    public static boolean validateEmail(String email) {
 	    	if (!validateInput(email,5,50))
 
-if (!email.contains("@")|| ! email.contains)
+if (!email.contains("@")|| ! email.contains(null))
+			return false;
 			return false;
 	    }
 

@@ -46,6 +46,5 @@ public class Account {
 		  return "AccNumber=" + accNumber + ", AccName=" + accName + ", AccBalance=" + accBalance
 		    + ", AccType=" + accType + "";
 		 }
-		 
-System.out.println("");
+
 		}
