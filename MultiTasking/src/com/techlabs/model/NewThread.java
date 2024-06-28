@@ -3,10 +3,10 @@ package com.techlabs.model;
 public class NewThread implements Runnable {
     private Thread thread;
 
-    public NewThread(String name) {
+    public NewThread(String name, int minPriority) {
     	super();
-        this.thread = new Thread(this,name);
-        thread.start();
+        this.setThread(new Thread(this,name));
+        getThread().start();
         
     }
 
@@ -14,7 +14,7 @@ public class NewThread implements Runnable {
 
 	public NewThread(Thread thread) {
 		super();
-		this.thread = thread;
+		this.setThread(thread);
 	}
 
 
@@ -31,4 +31,16 @@ public class NewThread implements Runnable {
             }
         }
     }
+
+
+
+	public Thread getThread() {
+		return thread;
+	}
+
+
+
+	public void setThread(Thread thread) {
+		this.thread = thread;
+	}
 }

@@ -3,7 +3,8 @@ package com.techlabs.models;
 public class HashSet {
 
 	public static void main(String[] args) {
-		HashSet<String> set = new HashSet<>();
+		HashSet<String> set =new HashSet<String>();
+		
 		        
 		        String str1 = new String("lmn");
 		        System.out.println("str1 hashCode: " + str1.hashCode());
