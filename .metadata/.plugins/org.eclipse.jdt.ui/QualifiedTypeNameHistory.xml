@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.techlabs.inputs.AccountOne"/>
-<fullyQualifiedTypeName name="com.techlabs.input.AccountType"/>
-<fullyQualifiedTypeName name="com.techlabs.input.Account"/>
-<fullyQualifiedTypeName name="com.techlabs.first.Student1"/>
-<fullyQualifiedTypeName name="com.techlabs.input.Status"/>
-<fullyQualifiedTypeName name="com.techlabs.model.StaticDemo"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="com.techlabs.model.BoxWeight"/>
-<fullyQualifiedTypeName name="com.techlabs.serial.SavingsAccount"/>
-<fullyQualifiedTypeName name="com.techlabs.serial.CurrentAccount"/>
-<fullyQualifiedTypeName name="com.techlabs.model.Car"/>
-<fullyQualifiedTypeName name="SerializationUtil.Serial"/>
-<fullyQualifiedTypeName name="com.techlabs.model.Shape"/>
-<fullyQualifiedTypeName name="com.techlabs.model.Rectangle"/>
 <fullyQualifiedTypeName name="com.techlabs.model.Circle"/>
 <fullyQualifiedTypeName name="com.techlabs.model.SmartDevice"/>
 <fullyQualifiedTypeName name="com.techlabs.model.Controllable"/>
@@ -26,7 +12,6 @@
 <fullyQualifiedTypeName name="com.techlabs.model.Movie"/>
 <fullyQualifiedTypeName name="com.techlabs.model.NoSuchMovieFoundException"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
 <fullyQualifiedTypeName name="java.util.ListIterator"/>
@@ -60,4 +45,19 @@
 <fullyQualifiedTypeName name="com.techlabs.credentials.factory.model.Mahindra"/>
 <fullyQualifiedTypeName name="com.techlabs.credentials.factory.model.IAccount"/>
 <fullyQualifiedTypeName name="com.techlabs.credentials.factory.model.AccountFactory"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.CDBuilder"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.CDType"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.ICarFactory"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.ICars"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.MarutiFactory"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.TataFactory"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.MahindraFactory"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.HotelReception"/>
+<fullyQualifiedTypeName name="com.techlabs.facade.solution.model.ShoppingCart"/>
+<fullyQualifiedTypeName name="com.techlabs.facade.solution.model.Biscuit"/>
+<fullyQualifiedTypeName name="com.techlabs.facade.solution.model.Hat"/>
+<fullyQualifiedTypeName name="com.techlabs.facade.solution.model.HatAdapter"/>
+<fullyQualifiedTypeName name="com.techlabs.facade.solution.model.IItems"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.techlabs.facade.solution.model.Chocolate"/>
 </qualifiedTypeNameHistroy>
