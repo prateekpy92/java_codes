@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.techlabs.model.Circle"/>
-<fullyQualifiedTypeName name="com.techlabs.model.SmartDevice"/>
-<fullyQualifiedTypeName name="com.techlabs.model.Controllable"/>
-<fullyQualifiedTypeName name="com.techlabs.model.Monitorable"/>
-<fullyQualifiedTypeName name="com.techlabs.model.Light"/>
-<fullyQualifiedTypeName name="com.techlabs.model.SecurityCamera"/>
-<fullyQualifiedTypeName name="com.techlabs.model.Thermostat"/>
-<fullyQualifiedTypeName name="java.io.Serializable"/>
-<fullyQualifiedTypeName name="com.techlabs.model.CapacityFullException"/>
-<fullyQualifiedTypeName name="com.techlabs.model.Movie"/>
-<fullyQualifiedTypeName name="com.techlabs.model.NoSuchMovieFoundException"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
-<fullyQualifiedTypeName name="java.util.ListIterator"/>
-<fullyQualifiedTypeName name="java.util.LinkedList"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="java.util.LinkedHashMap"/>
-<fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="com.techlabs.model.MyThread"/>
 <fullyQualifiedTypeName name="com.techlabs.model.NewThread"/>
 <fullyQualifiedTypeName name="java.util.concurrent.ExecutorService"/>
@@ -58,6 +39,25 @@
 <fullyQualifiedTypeName name="com.techlabs.facade.solution.model.Hat"/>
 <fullyQualifiedTypeName name="com.techlabs.facade.solution.model.HatAdapter"/>
 <fullyQualifiedTypeName name="com.techlabs.facade.solution.model.IItems"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.techlabs.facade.solution.model.Chocolate"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.CustomerService"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.Agent"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.Customer"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.PolicyServiceImpl"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.CommissionServiceImpl"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.EmployeeServiceImpl"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.AgentServiceImpl"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.CustomerServiceImpl"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.PolicyService"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.CommissionService"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.AgentService"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.EmployeeService"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.InsurancePlan"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.Commission"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.Employee"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.WithdrawalRequest"/>
+<fullyQualifiedTypeName name="InsuranceAdmin.InsuranceAdmin"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>
