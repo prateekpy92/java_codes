@@ -1,0 +1,140 @@
+
+1. Display all employee names in ascending order:
+```sql
+SELECT ENAME
+FROM EMP
+ORDER BY ENAME ASC;
+```
+
+2. Display all employee names, salary, commission of employees in dept 10:
+```sql
+SELECT ENAME, SAL, COMM
+FROM EMP
+WHERE DEPTNO = 10;
+```
+
+3. Display all employees in deptno 20 and 30:
+```sql
+SELECT *
+FROM EMP
+WHERE DEPTNO IN (20, 30);
+```
+
+4. Display all employees who are managers (job title):
+```sql
+SELECT *
+FROM EMP
+WHERE JOB = 'MANAGER';
+```
+
+5. Display all employees whose salary is between 2000 to 5000:
+```sql
+SELECT *
+FROM EMP
+WHERE SAL BETWEEN 2000 AND 5000;
+```
+
+6. Display all employees whose commission is NULL:
+```sql
+SELECT *
+FROM EMP
+WHERE COMM IS NULL;
+```
+
+7. Display employee name, salary, commission in descending order based on salary:
+```sql
+SELECT ENAME, SAL, COMM
+FROM EMP
+ORDER BY SAL DESC;
+```
+
+8. Display average, max, min and sum of salaries of employees:
+```sql
+SELECT AVG(SAL) AS AVERAGE_SALARY, MAX(SAL) AS MAX_SALARY, MIN(SAL) AS MIN_SALARY, SUM(SAL) AS TOTAL_SALARY
+FROM EMP;
+```
+
+9. Display hire date, current date and tenure (in months) of the employees:
+```sql
+SELECT ENAME, HIREDATE, CURDATE() AS CURRENT_DATE, 
+       TIMESTAMPDIFF(MONTH, HIREDATE, CURDATE()) AS TENURE_IN_MONTHS
+FROM EMP;
+```
+
+10. Display all employees whose name starts with 'S':
+```sql
+SELECT *
+FROM EMP
+WHERE ENAME LIKE 'S%';
+```
+
+11. Display unique deptno from emp table:
+```sql
+SELECT DISTINCT DEPTNO
+FROM EMP;
+```
+
+12. Display employee's job in lower case:
+```sql
+SELECT ENAME, LOWER(JOB) AS JOB
+FROM EMP;
+```
+
+13. Select top 3 salary earning employees (employees can be more than 3):
+```sql
+SELECT *
+FROM EMP
+ORDER BY SAL DESC
+LIMIT 3;
+```
+
+14. Select all clerks and managers in dept 10:
+```sql
+SELECT *
+FROM EMP
+WHERE (JOB = 'CLERK' OR JOB = 'MANAGER') AND DEPTNO = 10;
+```
+
+15. Display all clerks in ascending order of deptno:
+```sql
+SELECT *
+FROM EMP
+WHERE JOB = 'CLERK'
+ORDER BY DEPTNO ASC;
+```
+
+16. Display all employees department wise:
+```sql
+SELECT D.DNAME, E.ENAME
+FROM DEPT D
+LEFT JOIN EMP E ON D.DEPTNO = E.DEPTNO
+ORDER BY D.DNAME;
+```
+
+17. Display how many employees are there for each job:
+```sql
+SELECT JOB, COUNT(*) AS EMP_COUNT
+FROM EMP
+GROUP BY JOB;
+```
+
+18. Display what jobs are there for each department and number of employees for each job:
+```sql
+SELECT D.DNAME, E.JOB, COUNT(*) AS EMP_COUNT
+FROM DEPT D
+LEFT JOIN EMP E ON D.DEPTNO = E.DEPTNO
+GROUP BY D.DNAME, E.JOB;
+```
+
+19. Display how many employees are there for each department:
+```sql
+SELECT DEPTNO, COUNT(*) AS EMP_COUNT
+FROM EMP
+GROUP BY DEPTNO;
+```
+
+20. Display the rank of each employee with respect to their salary (highest salary will be rank 1):
+```sql
+SELECT ENAME, SAL, RANK() OVER (ORDER BY SAL DESC) AS SALARY_RANK
+FROM EMP;
+```

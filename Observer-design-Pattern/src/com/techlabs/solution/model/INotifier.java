@@ -1,5 +1,5 @@
 package com.techlabs.solution.model;
 
 public interface INotifier {
-    void notifyUser(Account account);
+    void notifyUser(Account account) throws NotificationException;
 }

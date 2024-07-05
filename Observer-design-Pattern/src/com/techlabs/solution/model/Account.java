@@ -4,59 +4,19 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Account {
-    private int accountNumber;
+	private String accountNumber;
     private String name;
     private double balance;
-    private INotifier emailNotifier;
-    private INotifier smsNotifier;
+    private List<INotifier> notifiers;
 
-    public Account(int accountNumber, String name, double balance) {
+    public Account(String accountNumber, String name, double balance) {
         this.accountNumber = accountNumber;
         this.name = name;
         this.balance = balance;
+        this.notifiers = new ArrayList<>();
     }
 
-    public void withdraw(double amount) {
-        if (amount <= balance) {
-            balance -= amount;
-            notifyAllNotifiers();
-        } else {
-            System.out.println("Insufficient funds");
-        }
-    }
-
-    public void deposit(double amount) {
-        balance += amount;
-        notifyAllNotifiers();
-    }
-
-    public void registerEmailNotifier(INotifier notifier) {
-        if (this.emailNotifier == null) {
-            this.emailNotifier = notifier;
-        } else {
-            System.out.println("Email notifier already registered for this account.");
-        }
-    }
-
-    public void registerSmsNotifier(INotifier notifier) {
-        if (this.smsNotifier == null) {
-            this.smsNotifier = notifier;
-        } else {
-            System.out.println("SMS notifier already registered for this account.");
-        }
-    }
-
-    private void notifyAllNotifiers() {
-        if (emailNotifier != null) {
-            emailNotifier.notifyUser(this);
-        }
-        if (smsNotifier != null) {
-            smsNotifier.notifyUser(this);
-        }
-    }
-
-    // Getters and setters
-    public int getAccountNumber() {
+    public String getAccountNumber() {
         return accountNumber;
     }
 
@@ -66,5 +26,33 @@ public class Account {
 
     public double getBalance() {
         return balance;
+    }
+
+    public void withdraw(double amount) {
+        if (amount > balance) {
+            System.out.println("Insufficient balance.");
+        } else {
+            balance -= amount;
+            notifyAllNotifiers();
+        }
+    }
+
+    public void deposit(double amount) {
+        balance += amount;
+        notifyAllNotifiers();
+    }
+
+    public void registerNotifier(INotifier notifier) {
+        notifiers.add(notifier);
+    }
+
+    private void notifyAllNotifiers() {
+        for (INotifier notifier : notifiers) {
+            try {
+                notifier.notifyUser(this);
+            } catch (NotificationException e) {
+                System.out.println(e.getMessage());
+            }
+        }
     }
 }

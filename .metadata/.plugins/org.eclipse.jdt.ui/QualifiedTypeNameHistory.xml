@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="com.techlabs.solution.model.CDType"/>
-<fullyQualifiedTypeName name="com.techlabs.solution.model.ICarFactory"/>
-<fullyQualifiedTypeName name="com.techlabs.solution.model.ICars"/>
-<fullyQualifiedTypeName name="com.techlabs.solution.model.MarutiFactory"/>
-<fullyQualifiedTypeName name="com.techlabs.solution.model.TataFactory"/>
-<fullyQualifiedTypeName name="com.techlabs.solution.model.MahindraFactory"/>
-<fullyQualifiedTypeName name="com.techlabs.solution.model.HotelReception"/>
-<fullyQualifiedTypeName name="com.techlabs.facade.solution.model.ShoppingCart"/>
-<fullyQualifiedTypeName name="com.techlabs.facade.solution.model.Biscuit"/>
-<fullyQualifiedTypeName name="com.techlabs.facade.solution.model.Hat"/>
-<fullyQualifiedTypeName name="com.techlabs.facade.solution.model.HatAdapter"/>
 <fullyQualifiedTypeName name="com.techlabs.facade.solution.model.IItems"/>
 <fullyQualifiedTypeName name="com.techlabs.facade.solution.model.Chocolate"/>
 <fullyQualifiedTypeName name="com.techlabs.solution.model.CustomerService"/>
@@ -21,7 +10,6 @@
 <fullyQualifiedTypeName name="com.techlabs.solution.model.EmployeeServiceImpl"/>
 <fullyQualifiedTypeName name="com.techlabs.solution.model.AgentServiceImpl"/>
 <fullyQualifiedTypeName name="com.techlabs.solution.model.CustomerServiceImpl"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="com.techlabs.solution.model.PolicyService"/>
 <fullyQualifiedTypeName name="com.techlabs.solution.model.CommissionService"/>
 <fullyQualifiedTypeName name="com.techlabs.solution.model.AgentService"/>
@@ -34,7 +22,6 @@
 <fullyQualifiedTypeName name="java.io.BufferedWriter"/>
 <fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.techlabs.solution.model.Inventory"/>
 <fullyQualifiedTypeName name="com.techlabs.solution.model.FileUtil"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
@@ -60,4 +47,17 @@
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="com.techlabs.composite.solution.example.model.Manager"/>
+<fullyQualifiedTypeName name="com.techlabs.composite.solution.example.model.EmployeeDirectory"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.Television"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.OnCommand"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.ICommand"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.OffCommand"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.RemoteControl"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.Controller"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.Context"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.StartState"/>
+<fullyQualifiedTypeName name="com.techlabs.solution.model.StopState"/>
 </qualifiedTypeNameHistroy>
